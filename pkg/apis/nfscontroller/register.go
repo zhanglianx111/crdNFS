@@ -1,5 +1,5 @@
-package nfs-controller
+package nfscontroller
 
 const (
-    GroupName = "nfscontroller.yonghui.cn"
+	GroupName = "nfscontroller.yonghui.cn"
 )
