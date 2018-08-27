@@ -5,6 +5,6 @@ cd vendor/github.com/kubernetes/code-generator
 
 # 执行命令
 ./generate-groups.sh "all" \
-./nfs-controller/pkg/client \
-./nfs-controller/pkg/apis \
-"nfscontroller:v1alphv1"
+github.com/zhanglianx111/nfs-controller/pkg/client \
+github.com/zhanglianx111/nfs-controller/pkg/apis \
+"nfscontroller:v1alpha1"

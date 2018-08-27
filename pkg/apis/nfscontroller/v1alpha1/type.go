@@ -6,9 +6,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
+/*
 type ClusterConditionType string
 
-/*
 const (
 	// ClusterConditionReady Cluster ready to serve API (healthy when true, unhealthy when false)
 	ClusterConditionReady condition.Cond = "Ready"
@@ -18,7 +18,7 @@ const (
 */
 // +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
-// +resource:path=cluster
+// +resource:path=nfs
 // +genclient:noStatus
 // +genclient:nonNamespaced
 
@@ -36,6 +36,7 @@ type NFS struct {
 	*/
 }
 
+/*
 // +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 // +resource:path=kubeconfig
@@ -48,9 +49,10 @@ type Kubeconfig struct {
 
 	Spec KubeconfigSpec `json:"spec"`
 }
+*/
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
-// +resource:path=clusters
+// +resource:path=nfs
 
 type NFSList struct {
 	metav1.TypeMeta `json:",inline"`
@@ -58,6 +60,7 @@ type NFSList struct {
 	Items           []NFS `json:"items"`
 }
 
+/*
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 // +resource:path=kubeconfigs
 
@@ -70,7 +73,7 @@ type KubeconfigSpec struct {
 	ConfigPath string `json: "configPath, omitempty"`
 }
 
-/*
+
 type ClusterSpec struct {
 	ConfigPath string `json: "configPath, omitempty"`
 }
