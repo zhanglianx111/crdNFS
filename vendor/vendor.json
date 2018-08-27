@@ -1,0 +1,208 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "HmbftipkadrLlCfzzVQ+iFHbl6g=",
+			"path": "github.com/golang/glog",
+			"revision": "23def4e6c14b4da8ac2ed8007337bc5eb5007998",
+			"revisionTime": "2016-01-25T20:49:56Z"
+		},
+		{
+			"path": "github.com/kubernetes/code-generater",
+			"revision": "kubernetes-1.10.4",
+			"version": "kubernetes-1.10.4"
+		},
+		{
+			"checksumSHA1": "ZkSP9iacH9VaN3C7jtDLU8QLVh4=",
+			"path": "github.com/kubernetes/code-generator",
+			"revision": "9de8e796a74d16d2a285165727d04c185ebca6dc",
+			"revisionTime": "2018-06-01T12:58:03Z",
+			"version": "kubernetes-1.10.4",
+			"versionExact": "kubernetes-1.10.4"
+		},
+		{
+			"checksumSHA1": "BAkDaykOQo07DhPpHMStCHVxdCs=",
+			"path": "github.com/kubernetes/code-generator/cmd",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "YXw5qT23dCROwrpunmILHMLR5lQ=",
+			"path": "github.com/kubernetes/code-generator/cmd/client-gen",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "eGK5Zz/sksdrOkwyecqDNt7ecsQ=",
+			"path": "github.com/kubernetes/code-generator/cmd/deepcopy-gen",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "SZSLfEQ1WVCNTZp0duuJ356xHg8=",
+			"path": "github.com/kubernetes/code-generator/cmd/defaulter-gen",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"path": "github.com/kubernetes/code-generator/cmd/defaulter-gen:",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "iWpR7JAKwQkgTaSwg/untHteipo=",
+			"path": "github.com/kubernetes/code-generator/cmd/informer-gen",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "ZhyTg+FYqKfyFyCBUVH4XRGR6ok=",
+			"path": "github.com/kubernetes/code-generator/cmd/lister-gen",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "egfheShGROUlwCTjbXjQJTYsGMg=",
+			"path": "github.com/spf13/pflag",
+			"revision": "d929dcbb10863323c436af3cf76cb16a6dfc9b29",
+			"revisionTime": "2018-08-21T11:45:17Z"
+		},
+		{
+			"path": "golang.org/x/tools/imports",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "OfgMQKfeF9h/ttepCziVKVVVk5k=",
+			"path": "k8s.io/code-generator/cmd/client-gen/args",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "4utMXPSsFiEW5Sgfc19PHGLOYkE=",
+			"path": "k8s.io/code-generator/cmd/client-gen/generators",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "kVY1LqeWbQ2QXHR3ZJsetesgQ/Y=",
+			"path": "k8s.io/code-generator/cmd/client-gen/generators/fake",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "naQkkY+KgpNatUDt3YNKlIDyoe4=",
+			"path": "k8s.io/code-generator/cmd/client-gen/generators/scheme",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "bXhk8kXxcVxlJijGW0MSELTLx+Y=",
+			"path": "k8s.io/code-generator/cmd/client-gen/generators/util",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "SARaJ5nSIInQ47pcC2iJcfW25Xk=",
+			"path": "k8s.io/code-generator/cmd/client-gen/path",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "rDM4EvUXpqEmgLp85C5Kjg07T/w=",
+			"path": "k8s.io/code-generator/cmd/client-gen/types",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "MbcJcIYqeaXwXooyZyZqt69kRn0=",
+			"path": "k8s.io/code-generator/cmd/deepcopy-gen/args",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "fgxApVbtUCWT9um7QOg/pB4fKrU=",
+			"path": "k8s.io/code-generator/cmd/defaulter-gen/args",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "FW3C5Ulr47t8urcrMO+PjOZXMnU=",
+			"path": "k8s.io/code-generator/cmd/informer-gen/args",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "78Z2HFDFA2espgvsIW+Ut+OqCAs=",
+			"path": "k8s.io/code-generator/cmd/informer-gen/generators",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "IzomXcKuA8pRU4INv8Fi+qgwc8o=",
+			"path": "k8s.io/code-generator/cmd/lister-gen/args",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "eY1N8ksT7Pb9dgHGRcOLT3YtTDY=",
+			"path": "k8s.io/code-generator/cmd/lister-gen/generators",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "JiBSouEf1Svdf0qnhUGrKypBrvM=",
+			"path": "k8s.io/code-generator/pkg/util",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
+			"checksumSHA1": "d15TYj1CxfMRLPJtzfMPvu3u5sg=",
+			"path": "k8s.io/gengo/args",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "j/ePzFVH+mvpBshcVVYuhK83xsU=",
+			"path": "k8s.io/gengo/examples/deepcopy-gen/generators",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "IrYKGr1Ihp7xKtWqkcvzUVMoq3Q=",
+			"path": "k8s.io/gengo/examples/defaulter-gen/generators",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "AAr7CHPlHzFuBViKpgH0/nsYPlE=",
+			"path": "k8s.io/gengo/examples/set-gen/sets",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "EnAp5h3f1G2uQxAz9bv0AbkC6dA=",
+			"path": "k8s.io/gengo/generator",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "8R71A6dguSHmnMyNXncTQMKZb1o=",
+			"path": "k8s.io/gengo/namer",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "TbUJaFJMzZpFtGeRGR+ih9JvOdg=",
+			"path": "k8s.io/gengo/parser",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "E4o1bZyeKpcVQTv7xbDmGCdQejk=",
+			"path": "k8s.io/gengo/types",
+			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
+			"revisionTime": "2018-08-13T23:50:10Z"
+		}
+	],
+	"rootPath": "nfs-controller"
+}
