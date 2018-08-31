@@ -1408,6 +1408,12 @@
 			"revisionTime": "2018-08-23T14:26:25Z"
 		},
 		{
+			"checksumSHA1": "rM8GnnghJMT5mkhC22KwTBO5V44=",
+			"path": "k8s.io/code-generator",
+			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
+			"revisionTime": "2018-08-22T11:25:00Z"
+		},
+		{
 			"checksumSHA1": "OfgMQKfeF9h/ttepCziVKVVVk5k=",
 			"path": "k8s.io/code-generator/cmd/client-gen/args",
 			"revision": "aae79feb89bdded3679da91fd8c19b6dfcbdb79a",
