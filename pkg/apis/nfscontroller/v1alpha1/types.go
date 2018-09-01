@@ -8,32 +8,32 @@ import (
 // +genclient:noStatus
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
-// Foo is a specification for a Foo resource
-type Foo struct {
+// Nfs is a specification for a Nfs resource
+type Nfs struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
-	Spec   FooSpec   `json:"spec"`
-	Status FooStatus `json:"status"`
+	Spec   NfsSpec   `json:"spec"`
+	Status NfsStatus `json:"status"`
 }
 
-// FooSpec is the spec for a Foo resource
-type FooSpec struct {
+// NfsSpec is the spec for a Nfs resource
+type NfsSpec struct {
 	DeploymentName string `json:"deploymentName"`
 	Replicas       *int32 `json:"replicas"`
 }
 
-// FooStatus is the status for a Foo resource
-type FooStatus struct {
+// NfsStatus is the status for a Nfs resource
+type NfsStatus struct {
 	AvailableReplicas int32 `json:"availableReplicas"`
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
-// FooList is a list of Foo resources
-type FooList struct {
+// NfsList is a list of Nfs resources
+type NfsList struct {
 	metav1.TypeMeta `json:",inline"`
 	metav1.ListMeta `json:"metadata"`
 
-	Items []Foo `json:"items"`
+	Items []Nfs `json:"items"`
 }

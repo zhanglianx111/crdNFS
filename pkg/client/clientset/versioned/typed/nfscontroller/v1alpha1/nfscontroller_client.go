@@ -27,7 +27,7 @@ import (
 
 type NfscontrollerV1alpha1Interface interface {
 	RESTClient() rest.Interface
-	FoosGetter
+	NfsesGetter
 }
 
 // NfscontrollerV1alpha1Client is used to interact with features provided by the nfscontroller.k8s.io group.
@@ -35,8 +35,8 @@ type NfscontrollerV1alpha1Client struct {
 	restClient rest.Interface
 }
 
-func (c *NfscontrollerV1alpha1Client) Foos(namespace string) FooInterface {
-	return newFoos(c, namespace)
+func (c *NfscontrollerV1alpha1Client) Nfses(namespace string) NfsInterface {
+	return newNfses(c, namespace)
 }
 
 // NewForConfig creates a new NfscontrollerV1alpha1Client for the given config.

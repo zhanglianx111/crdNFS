@@ -28,8 +28,8 @@ type FakeNfscontrollerV1alpha1 struct {
 	*testing.Fake
 }
 
-func (c *FakeNfscontrollerV1alpha1) Foos(namespace string) v1alpha1.FooInterface {
-	return &FakeFoos{c, namespace}
+func (c *FakeNfscontrollerV1alpha1) Nfses(namespace string) v1alpha1.NfsInterface {
+	return &FakeNfses{c, namespace}
 }
 
 // RESTClient returns a RESTClient that is used to communicate

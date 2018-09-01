@@ -33,6 +33,12 @@
 			"revisionTime": "2016-01-25T20:49:56Z"
 		},
 		{
+			"checksumSHA1": "nbCxiVT48CWEg6l8L4SEJ5VfN9c=",
+			"path": "github.com/golang/groupcache/lru",
+			"revision": "24b0969c4cb722950103eed87108c8d291a8df00",
+			"revisionTime": "2018-05-13T04:43:58Z"
+		},
+		{
 			"checksumSHA1": "CbzNfOvaT1G3G9WILmsyjYfYTO0=",
 			"path": "github.com/golang/protobuf/proto",
 			"revision": "b27b920f9e71b439b873b17bf99f56467623814a",
@@ -586,6 +592,12 @@
 			"revisionTime": "2018-08-23T14:26:25Z"
 		},
 		{
+			"checksumSHA1": "FtwPk5t7BMJDqe8LMCG2pZAwvBY=",
+			"path": "k8s.io/apimachinery/pkg/util/mergepatch",
+			"revision": "c6b66c9c507abbefa93ad83f7fe8c9b52ca1ae30",
+			"revisionTime": "2018-08-28T12:34:25Z"
+		},
+		{
 			"checksumSHA1": "y1dxj1ipJgt2PRXXSXDmXrSka6A=",
 			"path": "k8s.io/apimachinery/pkg/util/naming",
 			"revision": "017bf4f8f5884203a401400e511f4c8fc2eded21",
@@ -608,6 +620,12 @@
 			"path": "k8s.io/apimachinery/pkg/util/sets",
 			"revision": "017bf4f8f5884203a401400e511f4c8fc2eded21",
 			"revisionTime": "2018-08-23T14:26:25Z"
+		},
+		{
+			"checksumSHA1": "NzT7FlqpjsvcFg4g6hIzaQrIxqM=",
+			"path": "k8s.io/apimachinery/pkg/util/strategicpatch",
+			"revision": "c6b66c9c507abbefa93ad83f7fe8c9b52ca1ae30",
+			"revisionTime": "2018-08-28T12:34:25Z"
 		},
 		{
 			"checksumSHA1": "0zZltQ8NUw+PeVotck4dqCKT/JY=",
@@ -644,6 +662,12 @@
 			"path": "k8s.io/apimachinery/pkg/watch",
 			"revision": "017bf4f8f5884203a401400e511f4c8fc2eded21",
 			"revisionTime": "2018-08-23T14:26:25Z"
+		},
+		{
+			"checksumSHA1": "Z0LTjblQqzGRHcnruaPaC6kBIiQ=",
+			"path": "k8s.io/apimachinery/third_party/forked/golang/json",
+			"revision": "c6b66c9c507abbefa93ad83f7fe8c9b52ca1ae30",
+			"revisionTime": "2018-08-28T12:34:25Z"
 		},
 		{
 			"checksumSHA1": "9sFA+EjKrjpmK4OofQH0p0Rowfg=",
@@ -1354,6 +1378,12 @@
 			"revisionTime": "2018-08-23T14:26:25Z"
 		},
 		{
+			"checksumSHA1": "aCtlO69A+hhGwX0EbNR+6m2yI8A=",
+			"path": "k8s.io/client-go/tools/record",
+			"revision": "87935b98dd4abdf6477f29baf934d6dd0aba82d4",
+			"revisionTime": "2018-08-28T20:47:18Z"
+		},
+		{
 			"checksumSHA1": "n2h6CjJR1o+JM2snIIsCdcMMDWs=",
 			"path": "k8s.io/client-go/tools/reference",
 			"revision": "79cb21f5b3b1dd8f8b23bd3f79925b4fda4e2562",
@@ -1406,6 +1436,12 @@
 			"path": "k8s.io/client-go/util/retry",
 			"revision": "79cb21f5b3b1dd8f8b23bd3f79925b4fda4e2562",
 			"revisionTime": "2018-08-23T14:26:25Z"
+		},
+		{
+			"checksumSHA1": "wgrkDRwF0RXxN7Z9YMDRVV+KeUU=",
+			"path": "k8s.io/client-go/util/workqueue",
+			"revision": "87935b98dd4abdf6477f29baf934d6dd0aba82d4",
+			"revisionTime": "2018-08-28T20:47:18Z"
 		},
 		{
 			"checksumSHA1": "rM8GnnghJMT5mkhC22KwTBO5V44=",
@@ -1544,6 +1580,12 @@
 			"path": "k8s.io/gengo/types",
 			"revision": "4242d8e6c5dba56827bb7bcf14ad11cda38f3991",
 			"revisionTime": "2018-08-13T23:50:10Z"
+		},
+		{
+			"checksumSHA1": "F9uRePbZAiiZ1fGtsS0wb3FaxXM=",
+			"path": "k8s.io/kube-openapi/pkg/util/proto",
+			"revision": "e3762e86a74c878ffed47484592986685639c2cd",
+			"revisionTime": "2018-07-31T17:05:45Z"
 		}
 	],
 	"rootPath": "github.com/zhanglianx111/nfscontroller"

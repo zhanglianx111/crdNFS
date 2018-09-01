@@ -18,10 +18,10 @@ limitations under the License.
 
 package v1alpha1
 
-// FooListerExpansion allows custom methods to be added to
-// FooLister.
-type FooListerExpansion interface{}
+// NfsListerExpansion allows custom methods to be added to
+// NfsLister.
+type NfsListerExpansion interface{}
 
-// FooNamespaceListerExpansion allows custom methods to be added to
-// FooNamespaceLister.
-type FooNamespaceListerExpansion interface{}
+// NfsNamespaceListerExpansion allows custom methods to be added to
+// NfsNamespaceLister.
+type NfsNamespaceListerExpansion interface{}
