@@ -1,0 +1,7 @@
+apiVersion: nfscontroller.k8s.io/v1alpha1
+kind: Nfs
+metadata:
+  name: example-nfs
+spec:
+  deploymentName: example-nfs
+  replicas: 1

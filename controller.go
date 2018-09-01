@@ -151,6 +151,7 @@ func (c *Controller) enqueueNfs(obj interface{}) {
 		runtime.HandleError(err)
 		return
 	}
+	glog.Infof("add nfs key(%s) into workqueue", key)
 	c.workqueue.AddRateLimited(key)
 }
 
@@ -186,12 +187,14 @@ func (c *Controller) Start(threadinss int, stopCh <-chan struct{}) error {
 
 func (c *Controller) runWorker() {
 	for c.processNextWorkItem() {
+		glog.Error("workqueue shutdown!!!")
 	}
 }
 
 func (c *Controller) processNextWorkItem() bool {
 	obj, shutdown := c.workqueue.Get()
 	if shutdown {
+		glog.Error("workqueue status:%v", shutdown)
 		return false
 	}
 
@@ -202,7 +205,7 @@ func (c *Controller) processNextWorkItem() bool {
 		var ok bool
 		if key, ok = obj.(string); !ok {
 			c.workqueue.Forget(obj)
-			runtime.HandleError(fmt.Errorf("expected string in workqueue but got %#v", obj))
+			//runtime.HandleError(fmt.Errorf("expected string in workqueue but got %#v", obj))
 			return nil
 		}
 
@@ -229,6 +232,7 @@ func (c *Controller) syncHandler(key string) error {
 		runtime.HandleError(fmt.Errorf("invalid resource key: %s", key))
 		return nil
 	}
+	glog.Infof("key:%s, namespace:%s, name:%s",key, namespace, name)
 
 	nfs, err := c.nfsLister.Nfses(namespace).Get(name)
 	if err != nil {
